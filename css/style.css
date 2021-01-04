@@ -1,0 +1,304 @@
+/* 導覽列 */
+
+.header_logo {
+    width: 150px;
+}
+
+.header_menu {
+    width: 30px;
+}
+
+.navbar {
+    padding: 12px 60px;
+    background-color: white !important;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar {
+        padding: 12px 20px;
+    }
+}
+
+.nav-link {
+    color: #E04F22 !important;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #EDBC04 !important;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding: 10px;
+}
+
+/*栽培特色*/
+
+.row {
+    --bs-gutter-x:0;
+}
+
+.feature {
+    padding-left: 0px;
+}
+
+.farmer {
+    display: block;
+    padding-top: 20px;
+}
+
+.article {
+    padding-left: 85px;
+}
+
+@media screen and (max-width: 992px) {
+    .article {
+        padding: 30px 50px;
+        text-align: center;
+    }
+}
+
+.title {
+    color: #E04F22;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text {
+    font-family: 'Noto Sans TC';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.btn_article_more_normal {
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-color: #E04F22;
+    border-radius: 2px;
+
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 27px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .btn_article_more_normal {
+        margin: 40px auto;
+    }
+}
+
+.btn_article_more_normal:hover {
+    background-color: #EDBC04;
+    color: white;
+}
+
+/*最新消息*/
+
+.news-all {
+    background-image: url(../img/img_aside_tomato-bg.png);
+    background-size: cover;
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .news-all {
+        background-image: url(../img/img_aside_tomato-bg1.png);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .news-all {
+        background-image: url(../img/img_aside_tomato-bg2.png);
+    }
+}
+
+.title-center {
+    color: #E04F22;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.news {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.news-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.news-link:hover {
+    color: white;
+}
+
+.news-block {
+    display: block;
+    border: solid 2px #E04F22;
+    width: 207px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.news-block p {
+    font-family: 'Noto Sans TC';
+    font-weight: 300;
+    font-size: 12px;
+    margin: 28px 116px 6px 33px;
+}
+
+.news-block h1 {
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px 0px 29px 33px;
+}
+
+.news-block:hover {
+    background-color: #E04F22;
+}
+
+@media screen and (max-width: 768px) {
+    .news-block {
+        margin-top: 30px;
+    }
+}
+
+/*推薦產品*/
+
+.product_img {
+    align-items: center;
+    margin-top: 60px;
+}
+
+.img-arrow {
+    width: 15px;
+    margin: 0 50px;
+}
+
+@media screen and (max-width: 320px) {
+    .img-arrow {
+        margin: 0 0;
+    }
+}
+
+.img-tomato1 {
+    width: 200px;
+}
+
+.img-tomato2 {
+    width: 200px;
+}
+
+.img-tomato3 {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-tomato1 {
+        display: none;
+    }
+    .img-tomato3 {
+        display: none;
+    }
+}
+
+
+.img-tomato-text {
+    margin-top: 9px;
+    font-family: 'Noto Sans TC';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img-tomato-text2 {
+    margin-top: 9px;
+    font-family: 'Noto Sans TC';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .img-tomato-text2 {
+        display: none;
+    }
+}
+
+.btn_center {
+    margin: 50px auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #E04F22;
+}
+
+.footer_all {
+    margin-top: 32px;
+    display: flex;
+    justify-self: center;
+    padding: 0 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer_all {
+        margin-top: 20px;
+    }
+}
+
+.btn3 {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .btn3 {
+        margin-top: 5px;
+        justify-content: flex-start;
+    }
+}
+
+.footer_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-text {
+    margin-left: 12px;
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer_icon2 {
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-weight: 200;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .copyright {
+        margin-top: 20px;
+    }
+}
